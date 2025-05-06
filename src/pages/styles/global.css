@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: flex-end; /* Aligns the nav to the right */
+    padding: 10px 20px; /* Optional: Add some padding */
+}
+
+nav a {
+    margin-left: 15px; /* Add spacing between links */
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set link color */
+    font-weight: bold; /* Optional: Make the text bold */
+}
+
+nav a:hover {
+    color: aquamarine;
+}
